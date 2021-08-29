@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll the dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" style="font-size: xx-large;">Game of Dice</th>
+        </tr>
+        <tr>
+            <td>Player 1</td>
+            <td><input type="number" id="score1" style="width: 50px"></td>
+        </tr>
+        <tr>
+            <td>Player 2</td>
+            <td><input type="number" id="score2" style="width: 50px;"></td>
+        </tr>
+        <tr>
+            <td><button type="button" id="button" onclick="picknumber()">Roll the dice</button></td>
+            <td><input type="number" style="width: 50px;" id="math"></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="result"></td>
+        </tr>
+    </table>
+<script src="script.js"></script>
+</body>
+</html>
